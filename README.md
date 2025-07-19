@@ -1,0 +1,2 @@
+# blended-javascript
+JS practice
