@@ -69,7 +69,71 @@
 // }
 // console.log(result);
 
-// Task 7
+// Task 4 ++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Отримуйте від користувача число (кількість хвилин) через prompt
+// і виводьте у консоль рядок у форматі годин та хвилин.
+// Приклад: користувач вводить в prompt '70' -> в консолі відобразиться '01:10'.
+// Корисне посилання для відображення годин та хвилин у потрібному форматі ('01' замість '1'): 
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/padStart#examples
+
+// const userInput = prompt("Введіть кількість хвилин");
+// const totalMinutes = Number(userInput);
+// const hours = Math.floor(totalMinutes / 60);
+// const minutes = totalMinutes % 60;
+// const formattedHours = String(hours).padStart(2, '0');
+// const formattedMinutes = String(minutes).padStart(2, '0');
+// const result = `${formattedHours}:${formattedMinutes}`;
+// console.log(result);
+
+// Task 5 ++++++++++++++++++++++++++++++++++++++
+
+// Напишіть код, який запитуватиме у користувача
+// логін за допомогою prompt і виводить результат в консоль браузера
+
+// Після цього додайте перевірку введеного користувачем значення:
+// Якщо відвідувач вводить "Адмін",
+// то prompt запитує пароль (не забудьте зберігти його у змінну для подальшої перевірки).
+// Якщо нічого не ввели або натиснули Cancel,
+// Вивести в alert строку "Скасовано"
+// В іншому випадку вивести в alert рядок "Я вас не знаю"
+
+// Пароль перевіряти так:
+// Якщо введено пароль "Я головний",
+// то вивести в alert рядок "Добрий день!",
+// в іншому випадку вивести в alert рядок "Невірний пароль!"
+
+// const userLogin = prompt("Введіть ваш логін");
+// console.log(userLogin);
+
+// if (userLogin === "Адмін") {
+//   const userPassword = prompt("Введіть ваш пароль");
+
+//   if (userPassword === "Я головний") {
+//     alert("Добрий день!");
+//   } else if (userPassword === null || userPassword === "") {
+//     alert("Скасовано");
+//   } else {
+//     alert("Невірний пароль!");
+//   }
+
+// } else if (userLogin === null || userLogin === "") {
+//   alert("Скасовано");
+// } else {
+//   alert("Я вас не знаю");
+// }
+
+// Task 6 +++++++++++++++++++++++++++++++++++++++++
+
+// Використайте цикл while, щоб вивести в console всі числа від 0 до 20 включно.
+
+// let allNumbers = 0;
+// while (allNumbers <= 20) {
+//     console.log(allNumbers);
+//     allNumbers++;
+// }
+
+// Task 7 +++++++++++++++++++++++++++++++++++++++++++++++
 
 // Напишіть функцію getNumbers(min, max), що приймає 2 параметри -
 // мінімальне і максимальне число відповідно.
